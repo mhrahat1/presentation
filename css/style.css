@@ -1,0 +1,345 @@
+/*font*/
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+/*
+font-family: 'Grand Hotel', cursive;
+*/
+/*font*/
+/*common*/
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	font-weight: 400;
+	color:#ffffff;
+}
+/*common*/
+/*header top start*/
+.header-banner{
+/*	height:800px;*/
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*header top end*/
+/*header start*/
+.header{
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+.logo{}
+.c_toggler{
+	background-color:#ffc200;
+	border:none;
+}
+.c_toggler:focus{
+	outline:0;
+	box-shadow: none;
+}
+.menu{}
+.menu ul li a{
+	padding-right: 50px !important;
+	margin-top: 2px;
+	font-size:25px;
+	color: #ffffff !important;
+	transition: .4s;
+
+}
+.menu ul li a:hover{
+	color:#ffc200 !important;
+	transform: scale(0.9)!important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.src_button{
+	margin-left: 5%;
+    /* border: none; */
+    border: 1px solid transparent;
+}
+.src_button:hover{
+	background-color: #ffc200 !important;
+}
+.src_button:focus{
+	outline:0;
+	box-shadow: none;
+}
+/*header end
+/*banner start*/
+.banner{
+	padding: 120px 0;
+
+}
+.c_indicators {
+    bottom: -10%;
+    margin-right: 10%;
+    margin-left: 15%;
+}
+.c_indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.c_h1{
+    margin-bottom: 40px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+    font-weight: 400;
+    color: #ffc200;
+}
+.c_p{
+	font-size:30px;
+	letter-spacing:1px;
+}
+.ban_button{
+    margin: 40px 0;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ffc200;
+    border: 1px solid transparent;
+}
+.ban_button:hover{
+	background-color: #fff;
+}
+.ban_button:focus{
+	outline:0;
+	box-shadow: none;
+}
+/*banner end*/
+/*seller section start*/
+.seller{
+	padding-top:120px;
+}
+.seller_text{}
+.black{
+	margin-bottom: 40px;
+	font-size:75px;
+	color:#333333;
+}
+.seller_p{
+	font-size:25px;
+	color:#333333;
+}
+.seller_info{
+	margin-top:70px;
+}
+.seller_info img{
+	border-radius: 50%;
+	transition: .4s;
+}
+.seller_info img:hover{
+	transform: scale(0.8) !important;
+}
+.s_img{
+}
+.s_h3{
+	margin:15px 0 20px;
+	font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color:#333333;
+}
+.s_p{
+	font-size: 17px;
+    letter-spacing: 2px;
+    color: #333333;
+}
+/*seller section end*/
+/*product section*/
+.product{
+	padding-top: 200px;
+	padding-bottom:100px;
+	background-image: url(../images/bgi2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.product_img{
+    margin-top: 130px;
+}
+.product_img img{
+	border-radius: 50%;
+}
+.p_img{}
+.left_content{
+    margin-top: 170px;
+}
+.h1_c{
+	margin-bottom: 30px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+    font-weight: 400;
+    color: #ffc200;
+}
+.p_c{
+	font-size:25px;
+	letter-spacing:2px;
+}
+.p_button{
+	margin: 50px 0 0px;
+    width: 325px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ffc200;
+    border: 1px solid transparent;
+}
+.p_button:hover{
+	background-color: #fff;
+}
+.p_button:focus{
+	outline:0;
+	box-shadow: none;
+}
+/*product section end*/
+/*about section start*/
+.about{
+	padding-top: 80px;
+	padding-bottom:120px;
+	background-image: url(../images/bgi3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.about_text{}
+.yellow{}
+.yellow_p{}
+.about_item{
+	margin-top: 90px;
+	border: 4px solid #ffffff;
+    padding: 29.74% 0;
+    border-radius: 50%;
+}
+.c_span1{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffc200;
+}
+.c_span{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/*about section end*/
+/*promo section start*/
+.promo{
+	padding-top: 20px;
+    padding-bottom: 190px;
+	background-image: url(../images/bgi4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*promo section start*/
+/*blog start*/
+.blog{
+	padding-top: 250px;
+    padding-bottom: 250px;
+	background-image: linear-gradient(rgba(255,194,13,.8), rgba(255,194,13,.8)),url(../images/bgi5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.blog_p{
+	font-size:40px;
+	color:#333333;
+}
+/*blog end*/
+/*contact section start*/
+.contact{
+	padding-top: 130px;
+	padding-bottom: 250px;
+	background-image: url(../images/bgi6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.contact_h1{
+	color:#333333;
+}
+.contact_p{
+	color:#333333;
+
+}
+.c_input{
+	margin-top: 80px;
+}
+.c_email{
+	width: 100%;
+	height: 65px;
+	color: #000000 !important;
+	font-size: 25px !important;
+	border:none;
+	box-shadow: 0 3px 140px 0 rgb(0,0,0,.5);
+}
+.c_email:focus{
+	box-shadow: 0 3px 140px 0 rgb(0,0,0,.5);
+	outline: 0;
+}
+.sub_btn{
+	width: 100%;
+	height: 65px;
+	background-color: #ffc200;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:#333333;
+}
+.sub_btn:hover{
+	background-color: #333333;
+	color:#ffffff;
+}
+.sub_btn:focus{
+	box-shadow: none;
+	outline: 0;
+}
+/*contact section end*/
+/*footer start*/
+footer{
+	padding-top: 120px;
+	padding-bottom: 100px;
+	background-color: #333333;
+}
+.f_1{}
+.f_1 h4{
+	margin-bottom: 30px;
+	font-size:25px;
+	font-weight: 700;
+}
+.f_1 a{
+	text-decoration: none;
+	color: #ffffff !important;
+}
+.f_1 p{
+	margin-bottom: 15px;
+	font-size:21px;
+}
+.f_icon{
+	margin-top: 20px;
+}
+.f_icon i{
+	margin-right: 10px;
+    font-size: 25px;
+    width: 12%;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 3%;
+    text-align: center;
+    transition: .4s ease;
+}
+.f_icon i:hover{
+	background-color: #ffc200;
+}
+/*footer end*/

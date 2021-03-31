@@ -1,0 +1,589 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.menu {
+    text-align: right;
+    }
+    .menu ul li a {
+    padding:0 !important;
+    font-size: 18px;
+    }
+	/*header end*/
+	/*banner start*/
+	.banner {
+    padding: 40px 0;    }
+    .c_h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    }
+    .c_p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    }
+    .ban_button {
+    margin: 15px 0;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    }
+    .c_prev {
+    left: 82%;
+    }
+    .c_next {
+    right: 1%;
+    }
+    .c_prev, .c_next {
+    top: 73%;
+    width: 8%;
+    }
+    /*banner end*/
+    /*seller start*/
+    .seller {
+    padding-top: 60px;
+    }
+    .black{
+	margin-bottom: 10px;
+	font-size:40px;
+    }
+    .seller_info {
+    margin-top: 20px;
+    }
+    .s_img {
+    max-width: 50% !important;
+    }
+    .s_h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    }
+    .s_p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    }
+    /*seller end*/
+    /*product start*/
+    .product {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    }
+    .product_img {
+    margin-top: 50px;
+    text-align: center;
+    }
+    .p_img {
+    max-width: 65% !important;
+    }
+    .left_content {
+    margin-top: 20px;
+    text-align: center;
+    }
+    .h1_c {
+    margin-bottom: 0px;
+    font-size: 40px;
+    }
+    .p_c {
+    font-size: 16px;
+    letter-spacing: 0px;
+    }
+    .p_button {
+    margin: 10px 0 0px;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    }
+    /*product end*/
+    /*about section start*/
+    .about {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    }
+    .yellow{
+    margin-bottom: 10px;
+    font-size: 45px;
+    }
+    .about_item {
+    margin-top: 25px;
+    padding: 31% 0;
+    }
+    .c_span1 {
+    font-size: 25px;
+    }
+    .c_span {
+    font-size: 16px;
+    }
+    /*about section end*/
+    /*promo start*/
+    .promo {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    }
+    .promo_img{
+    margin-top: 40px;
+    }
+    /*promo end*/
+    /*blog start*/
+    .blog{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .blog_p {
+    font-size: 20px;
+    }
+    /*blog end*/
+    /*contact start*/
+    .contact {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    }
+    .c_input {
+    margin-top: 30px;
+    }
+    .c_email {
+    height: 45px;
+    font-size: 18px !important;
+    }
+    .sub_btn {
+    margin-top: 20px;
+    height: 45px;
+    font-size: 16px;
+    }
+    /*contact end*/
+    /*footer start*/
+    footer {
+    padding-top: 30px;
+    padding-bottom: 55px;
+    }
+    .f_1 {
+    margin-top: 40px;
+    text-align: center;
+    }
+    .f_1 h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    }
+    .f_1 p {
+    margin-bottom: 1px;
+    font-size: 16px;
+    }
+    .f_icon {
+    margin-top: 5px;
+    }
+    .f_icon i {
+    font-size: 14px;
+    width: 14%;
+    }
+    /*footer end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.menu {
+    text-align: right;
+    }
+    .menu ul li a {
+    padding: 2px 0 !important;
+    font-size: 20px;
+    }
+	/*header end*/
+	/*banner start*/
+	.banner {
+    padding: 50px 0;
+    }
+    .c_h1 {
+    margin-bottom: 18px;
+    font-size: 70px;
+    }
+    .c_p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    }
+    .ban_button {
+    margin: 25px 0;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    }
+    .c_prev {
+    left: 80%;
+    }
+    .c_next {
+    right: 3%;
+    }
+    .c_prev, .c_next {
+    top: 70%;
+    width: 5%;
+    }
+    /*banner end*/
+    /*seller start*/
+    .seller {
+    padding-top: 80px;
+    }
+    .black{
+	margin-bottom: 18px;
+	font-size:50px;
+    }
+    .seller_info {
+    margin-top: 30px;
+    }
+    .s_img {
+    max-width: 40% !important;
+    }
+    .s_h3 {
+    margin: 10px 0 10px;
+    font-size: 25px;
+    }
+    .s_p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    }
+    /*seller end*/
+    /*product start*/
+    .product {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+    .product_img {
+    margin-top: 90px;
+    text-align: center;
+    }
+    .p_img {
+    max-width: 65% !important;
+    }
+    .left_content {
+    margin-top: 50px;
+    text-align: center;
+    }
+    .h1_c {
+    margin-bottom: 0px;
+    font-size: 50px;
+    }
+    .p_c {
+    font-size: 18px;
+    letter-spacing: 0px;
+    }
+    .p_button {
+    margin: 15px 0 0px;
+    width: 210px;
+    height: 50px;
+    font-size: 18px;
+    }
+    /*product end*/
+    /*about section start*/
+    .about {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    }
+    .yellow{
+    margin-bottom: 15px;
+    font-size: 50px;
+    }
+    .yellow_p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    }
+    .about_item {
+    margin-top: 20px;
+    padding: 30% 0;
+    }
+    .c_span1 {
+    font-size: 30px;
+    }
+    .c_span {
+    font-size: 20px;
+    }
+    /*about section end*/
+    /*promo start*/
+    .promo {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    }
+    .promo_img{
+    margin-top: 70px;
+    }
+    /*promo end*/
+    /*blog start*/
+    .blog{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    .blog_p {
+    font-size: 24px;
+    }
+    /*blog end*/
+    /*contact start*/
+    .contact {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    }
+    .c_input {
+    margin-top: 40px;
+    }
+    .c_email {
+    height: 50px;
+    font-size: 18px !important;
+    }
+    .sub_btn {
+    height: 50px;
+    font-size: 16px;
+    }
+    /*contact end*/
+    /*footer start*/
+    footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    }
+    .f_1 {
+    margin-top: 60px;
+    text-align: center;
+    }
+    .f_1 h4 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    }
+    .f_1 p {    
+    margin-bottom: 3px;
+    font-size: 16px;
+    }
+    .f_icon {
+    margin-top: 10px;
+    }
+    .f_icon i {
+    font-size: 15px;
+    }
+    /*footer end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.menu {
+    text-align: right;
+    }
+    .menu ul li a {
+    padding: 5px 0 !important;
+    font-size: 22px;
+    }
+	/*header end*/
+	/*banner start*/
+	.banner{
+	padding: 80px 0;
+    }
+    .c_indicators {
+    margin-left: 10%;
+    }
+    .c_indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    }
+    .c_h1 {
+    margin-bottom: 30px;
+    font-size: 85px;
+    }
+    .c_p {
+    font-size: 25px;
+    letter-spacing: 0px;
+    }
+    .ban_button {
+    margin: 35px 0;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    }
+	/*banner end*/
+	/*seller start*/
+	.seller {
+    padding-top: 100px;
+    }
+    .black{
+	margin-bottom: 25px;
+	font-size:60px;
+    }
+    .seller_p{
+	font-size:22px;
+    }
+    .seller_info {
+    margin-top: 50px;
+    }
+    .s_img {
+    max-width: 90% !important;
+    }
+    .s_h3 {
+    margin: 10px 0 15px;
+    font-size: 30px;
+    }
+    .s_p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    }
+	/*seller end*/
+    /*product start*/
+    .product {
+    padding-top: 140px;
+    padding-bottom: 80px;
+    }
+    .product_img {
+    margin-top: 100px;
+    }
+    .p_img {
+    max-width: 120% !important;
+    }
+    .left_content {
+    margin-top: 80px;
+    }
+    .h1_c {
+    margin-bottom: 5px;
+    font-size: 70px;
+    }
+    .p_c {
+    font-size: 20px;
+    letter-spacing: 0px;
+    }
+    .p_button {
+    margin: 20px 0 0px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    }
+    /*product end*/
+    /*about section start*/
+    .about {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    }
+    .yellow{
+    margin-bottom: 15px;
+    font-size: 70px;
+    }
+    .yellow_p{
+        font-size: 22px;
+    }
+    .about_item {
+    margin-top: 40px;
+    padding: 18% 0;
+    }
+    .c_span1 {    
+    font-size: 40px;
+    }
+    .c_span {
+    font-size: 22px;
+    }
+      /*about section end*/
+    /*promo start*/
+    .promo {
+    padding-top: 0px;
+    padding-bottom: 130px;
+    }
+    /*promo end*/
+    /*blog start*/
+    .blog{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    }
+    .blog_p {
+    font-size: 30px;
+    }
+    /*blog end*/
+    /*contact start*/
+    .contact {
+    padding-top: 70px;
+    padding-bottom: 120px;
+    }
+    .c_input {
+    margin-top: 60px;
+    }
+    .c_email {
+    height: 55px;
+    font-size: 20px !important;
+    }
+    .sub_btn {
+    height: 55px;
+    font-size: 16px;
+    }
+    /*contact end*/
+    /*footer start*/
+    footer {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    }
+    .f_1 h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    }
+    .f_1 p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    }
+    .f_icon {
+    margin-top: 15px;
+    }
+    .f_icon i {
+    font-size: 15px;
+    width: 13%;
+    }
+    /*footer end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*header start*/
+	.menu ul li a {
+    padding-right: 25px !important;
+    font-size: 23px;
+    }
+	/*header end*/
+	/*banner start*/
+	.c_indicators {
+    margin-left: 20%;
+    }
+	/*banner end*/
+    /*product start*/
+    .product_img {
+    margin-top: 115px;
+    }
+    .left_content {
+    margin-top: 95px;
+    }
+    .p_img{
+    max-width: 110%;
+    }
+    /*product end*/
+    /*about section start*/
+    .about_item {
+    padding: 20.74% 0;
+    }
+    /*about section end*/
+    /*footer start*/
+    .f_icon i {
+    font-size: 18px;
+    }
+    /*footer end*/
+
+}
+
+/*Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /*product start*/
+    .left_content {
+    margin-top: 140px;
+    }
+    /*product end*/
+    /*about section start*/
+    .about_item {
+    padding: 25.74% 0;
+    }
+    /*about section end*/
+    /*footer start*/
+    .f_icon i {
+    font-size: 20px;
+    }
+    /*footer end*/
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}

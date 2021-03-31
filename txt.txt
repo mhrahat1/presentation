@@ -1,0 +1,47 @@
+header:
+----------------------
+color:
+white:#ffffff;(menu)
+yellow:#ffc200;
+black:#333333;
+-------------------
+menu:             xxl/xl/lg               md            sm      col
+                     25                   22            20       18
+
+banner:
+------------------------------------
+padding:          xxl/xl/lg                md            sm         col
+                    120                    80            50         30
+
+h1:               xxl/xl/lg                md            sm         col
+                    100                    85            50         30
+
+p:                xxl/xl/lg                md            sm         col
+                      30                   25
+
+button:
+(width/height)    xxl/xl/lg                md            sm         col
+                    250/50               235/45
+------------------------------------
+seller:
+===================================================
+pading:           xxl/xl/lg                md            sm         col
+                     120/100              100/80        80/60      60/40
+
+img:240x240
+==================================================
+
+
+f-icon:width 13%
+
+
+
+
+
+
+
+
+
+
+
+
